@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+     RoboCore Utilities Package
+     
+     This component provides core utilities and helper functions for
+     the RoboCore robotic platform, supporting various operational modes
+     and control paradigms.
+-->
+<package format="3">
+  <!-- Package identity -->
+  <n>robocore_utilities</n>
+  
+  <!-- Versioning -->
+  <version>0.2.1</version>
+  
+  <!-- Package metadata -->
+  <description>
+    Core utilities library providing fundamental support functions and 
+    algorithms for the RoboCore platform, including motion control,
+    sensor processing, and system integration tools.
+  </description>
+  
+  <!-- Legal information -->
+  <license file="LICENSE">MIT</license>
+  
+  <!-- Team information -->
+  <maintainer email="robotics.systems@educational.institute">
+    Robotics Engineering Team
+  </maintainer>
+  
+  <author>Embedded Systems Group</author>
+  <author email="robotics.systems@educational.institute">
+    Robotics Engineering Team
+  </author>
+  
+  <!-- URLs -->
+  <url type="website">https://robotics.educational.institute</url>
+  <url type="repository">https://github.com/educational/robocore</url>
+  <url type="bugtracker">https://github.com/educational/robocore/issues</url>
+  
+  <!-- Build system dependencies -->
+  <buildtool_depend>ament_cmake_ros</buildtool_depend>
+  <buildtool_depend>ament_cmake_python</buildtool_depend>
+  
+  <!-- Core ROS dependencies -->
+  <depend>rclcpp</depend>
+  <depend>rclpy</depend>
+  <depend>rosidl_default_runtime</depend>
+  
+  <!-- Message dependencies -->
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>visualization_msgs</depend>
+  
+  <!-- Additional dependencies -->
+  <depend>eigen</depend>
+  <depend>boost</depend>
+  <depend>yaml-cpp</depend>
+  <depend>rclcpp_action</depend>
+  <depend>twist_mux_msgs</depend>
+  
+  <!-- Testing dependencies -->
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+  <test_depend>ament_cmake_gmock</test_depend>
+  <test_depend>ament_cmake_gtest</test_depend>
+
+  <!-- Documentation -->
+  <doc_depend>doxygen</doc_depend>
+  <doc_depend>sphinx</doc_depend>
+  
+  <!-- Package export information -->
+  <export>
+    <build_type>ament_cmake</build_type>
+    <ros1_bridge mapping_rules="robocore_bridge_mappings.yaml"/>
+  </export>
+</package>

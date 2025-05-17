@@ -1,0 +1,7 @@
+twist_mux:
+  ros__parameters:
+    locks:
+      emergency_halt:
+        topic   : emergency_halt
+        timeout : 0.0
+        priority: 255

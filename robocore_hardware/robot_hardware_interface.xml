@@ -1,0 +1,10 @@
+<library path="robocore_hardware">
+    <class name="robocore_hardware/BumperbotInterface"
+      type="robocore_hardware::BumperbotInterface"
+      base_class_type="hardware_interface::SystemInterface"
+    >
+      <description>
+        Bumperbot Hardware Interface
+      </description>
+    </class>
+  </library>
