@@ -146,6 +146,4 @@ Components communicate through ROS2 topics, services, and actions, with a focus 
 
 Contributions are welcome! Please feel free to submit pull requests or open issues to improve the platform.
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details. 
+ 
