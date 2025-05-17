@@ -1,5 +1,4 @@
-# RoboCore Robot Platform
-
+Real-Time Inter-Terrestrial Odometry, Control, Mapping, and Localization
 A comprehensive ROS2 robotics platform featuring modular components for mobile robot control, perception, and navigation.
 
 ## Overview
